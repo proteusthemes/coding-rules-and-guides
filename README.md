@@ -55,6 +55,8 @@ http://themereview.co/prefix-all-the-things/
 
 ## Git
 
+- Commit comments start capitalized and end with a period (as sentences), ie. `Initial commit.`, `Added feature XYZ. Closes issue #42.`.
+
 ## Other tools
 
 ### Bower
