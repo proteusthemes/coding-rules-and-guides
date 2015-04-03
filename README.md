@@ -2,16 +2,7 @@
 
 These are code style rules, guides and examples of ProteusThemes development team. Everyone contributing code to ProteusThemes should be familiar with the contents of this document.
 
-## TOC
-
-- [Fontend](#frontend)
-  - [HTML](#html)
-  - [CSS](#css)
-  - [JavaScript](#javascript)
-- [Backend](#backend)
-- [TODO](#todo)
-
-## Frontend
+## Code style guides and naming conventions
 
 ### HTML
 
@@ -40,12 +31,43 @@ Adhere to the [Code Guide](http://codeguide.co/#css) and additionally:
 
 ### JavaScript
 
-## Backend
+### PHP
+
+## WordPress
+
+### Menus and navigation
+
+### Standard scripts/styles handles
+
+https://github.com/grappler/wp-standard-handles
+
+### Prefixing and scopes
+
+http://themereview.co/prefix-all-the-things/
+
+### Accessibility
+
+### Directory tree structure
+
+#### Of a theme
+
+#### Of a plugin
+
+## Git
+
+## Other tools
+
+### Bower
+
+### Composer
+
+### Grunt
+
+---
 
 ## TODO
 
 - TOC
-- link to accessibility for WP
 - Add [EditorConfig file](http://editorconfig.org/)
 
 Created and maintained by [@primozcigler](https://twitter.com/primozcigler).
