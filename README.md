@@ -71,5 +71,6 @@ http://themereview.co/prefix-all-the-things/
 
 - TOC
 - Add [EditorConfig file](http://editorconfig.org/)
+- https://www.npmjs.com/package/tinypng-cli and image optimization (somewhere)
 
 Created and maintained by [@primozcigler](https://twitter.com/primozcigler).
