@@ -39,7 +39,11 @@ Adhere to the [Code Guide](http://codeguide.co/#css) and additionally:
 
 ### Standard scripts/styles handles
 
-https://github.com/grappler/wp-standard-handles
+Follow rules from the [WP Standard Handles](https://github.com/grappler/wp-standard-handles) guide. See the mentioned link for:
+
+- How to name script/style handles.
+- How to properly register Google Fonts.
+- How to name image size handles added via [`add_image_size`](https://codex.wordpress.org/Function_Reference/add_image_size).
 
 ### Prefixing and scopes
 
