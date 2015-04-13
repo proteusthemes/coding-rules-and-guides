@@ -33,26 +33,21 @@ Adhere to the [Code Guide](http://codeguide.co/#css) and additionally:
 
 ### PHP
 
-As we write 99% PHP for WP, follow their [PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/). Abstract:
+As we write 99% PHP for WP, follow their [PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/). The only difference is the [brace style](https://make.wordpress.org/core/handbook/coding-standards/php/#brace-style) - mind additional new line after closing `}`:
 
-- [single quotes](https://make.wordpress.org/core/handbook/coding-standards/php/#single-and-double-quotes) whenever possible
-- lots of [spaces](https://make.wordpress.org/core/handbook/coding-standards/php/#space-usage)
-- [yoda conditions](https://make.wordpress.org/core/handbook/coding-standards/php/#yoda-conditions)
-- use a little different [brace style](https://make.wordpress.org/core/handbook/coding-standards/php/#brace-style) - mind additional new line after closing `}`:
-
-  ```php
-  if ( condition ) {
-    action1();
-    action2();
-  }
-  else if ( condition2 && condition3 ) {
-    action3();
-    action4();
-  }
-  else {
-    defaultaction();
-  }
-  ```
+```php
+if ( condition ) {
+  action1();
+  action2();
+}
+else if ( condition2 && condition3 ) {
+  action3();
+  action4();
+}
+else {
+  defaultaction();
+}
+```
 
 ## WordPress
 
