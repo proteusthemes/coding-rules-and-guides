@@ -57,6 +57,11 @@ http://themereview.co/prefix-all-the-things/
 
 #### Of a plugin
 
+### WP Customizer
+
+- [Improvements made in WP 4.0](https://make.wordpress.org/core/2014/07/08/customizer-improvements-in-4-0/): panels, new controls (supporting all HTML5 input types), contextual controls.
+- [Improvements made in WP 4.1](https://make.wordpress.org/core/2014/11/17/jsunderscore-template-rendered-custom-customizer-controls-in-wordpress-4-1/): registering control types, sending PHP control data to JS, JS/Underscore templating.
+
 ## Git
 
 - Commit comments start capitalized and end with a period (as sentences), ie. `Initial commit.`, `Added feature XYZ. Closes issue #42.`.
