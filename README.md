@@ -92,7 +92,16 @@ http://themereview.co/prefix-all-the-things/
 - All inputs and textareas must have lables.
 - Icon fonts (social icons for example) should have fallback text for screen readers.
 - Use [ARIA landmark] (https://make.wordpress.org/themes/handbook/review/accessibility/required/#aria-landmark-roles) roles.
-- Use <strong> and <em> instead of <bold> and <i> (Even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/).).
+- Use <strong> and <em> instead of <bold> and <i> (even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/)).
+
+#### Navigation
+
+- Add `role="navigation"` and `aria-label="<?php _e( 'Name of the Menu', 'cargopress_wp' ); ?>"` on `<nav>`.
+- Add `role="menubar"` only on the first `ul` if `ul` is horizontal.
+- Add `role="menuitem"` on all `li` element or `role="presentation"` (if there is still bug in validator).
+- Add `role="menu"` on al `ul`s width sub-menu.
+- Add `aria-haspopup="true"` on `li` with sub-menu.
+- Add `aria-expanded="false"` on all `li` elements with sub-menu on default. Change to `aria-expanded="true"` if sub-menu is open.
 
 ### Directory tree structure
 
