@@ -94,7 +94,7 @@ http://themereview.co/prefix-all-the-things/
 - Use [ARIA landmark] (https://make.wordpress.org/themes/handbook/review/accessibility/required/#aria-landmark-roles) roles.
 - Use `<strong>` and `<em>` instead of `<bold>` and `<i>` (even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/)).
 
-#### Navigation
+#### Navigation Accessibility
 
 - Add `role="navigation"` and `aria-label="<?php _e( 'Name of the Menu', 'cargopress_wp' ); ?>"` on `<nav>`.
 - Add `role="menubar"` only on the first `ul` if `ul` is horizontal.
