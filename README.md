@@ -62,7 +62,7 @@ We use [WordPress navigation] (https://codex.wordpress.org/Function_Reference/wp
 'container' => false,
 'menu_class' => 'main-navigation'
 ```
-Change "main" with different name if there is more menus.
+Change `main` with different name if there is more menus.
 
 ### Standard scripts/styles handles
 
