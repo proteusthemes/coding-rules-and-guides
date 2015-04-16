@@ -88,7 +88,7 @@ http://themereview.co/prefix-all-the-things/
 
 ### Bower
 
-All 3rd party **frontend** dependencies should be included via (Bower)(http://bower.io/), so the repo stays clean and it is easy to update to future versions from comfort of terminal.
+All 3rd party **frontend** dependencies should be included via [Bower](http://bower.io/), so the repo stays clean and it is easy to update to future versions from comfort of terminal.
 
 In rare occasions the backend dependencides can be included via bower as well, if they don't support Composer packages.
 
