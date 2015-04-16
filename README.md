@@ -92,7 +92,7 @@ http://themereview.co/prefix-all-the-things/
 - All inputs and textareas must have lables.
 - Icon fonts (social icons for example) should have fallback text for screen readers.
 - Use [ARIA landmark] (https://make.wordpress.org/themes/handbook/review/accessibility/required/#aria-landmark-roles) roles.
-- Use <strong> and <em> instead of <bold> and <i> (even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/)).
+- Use `<strong>` and `<em>` instead of `<bold>` and `<i>` (even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/)).
 
 #### Navigation
 
