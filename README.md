@@ -53,6 +53,11 @@ else {
 
 ### Menus and navigation
 
+We use [WordPress navigation] (https://codex.wordpress.org/Function_Reference/wp_nav_menu) with the [Bootstrap] (http://getbootstrap.com/components/#navbar) elements for collapsed mobile navbar.
+
+- Add <nav> element around the WordPress code for menu.
+- Add arrays for wp_nav_menu: 'theme_location' => 'main-menu', 'container' => false, 'menu_class' => 'main-navigation'. Change "main" with different name if there is more menus.
+
 ### Standard scripts/styles handles
 
 Follow rules from the [WP Standard Handles](https://github.com/grappler/wp-standard-handles) guide. See the mentioned link for:
