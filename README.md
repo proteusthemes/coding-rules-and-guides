@@ -78,6 +78,22 @@ http://themereview.co/prefix-all-the-things/
 
 ### Accessibility
 
+- Hide [screen reader text] (https://make.wordpress.org/accessibility/tag/screen-reader/) with this code:
+
+```
+.screen-reader-text {
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute !important;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+}
+```
+- All inputs and textareas must have lables.
+- Icon fonts (social icons for example) should have fallback text for screen readers.
+- Use [ARIA landmark] (https://make.wordpress.org/themes/handbook/review/accessibility/required/#aria-landmark-roles) roles.
+- Use <strong> and <em> instead of <bold> and <i> (Even if screen readers sees them the same - [source] (http://webaim.org/techniques/semanticstructure/).).
+
 ### Directory tree structure
 
 #### Of a theme
