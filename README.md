@@ -53,7 +53,7 @@ else {
 
 ### Menus and navigation
 
-We use [WordPress navigation] (https://codex.wordpress.org/Function_Reference/wp_nav_menu) with the [Bootstrap] (http://getbootstrap.com/components/#navbar) elements for collapsed mobile navbar.
+We use [WordPress navigation] (https://codex.wordpress.org/Function_Reference/wp_nav_menu) with the [Bootstrap] (http://getbootstrap.com/components/#navbar) elements (for collapsed mobile navbar).
 
 - Add <nav> element around the WordPress code for menu.
 - Add arrays for wp_nav_menu: 
