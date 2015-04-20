@@ -92,16 +92,16 @@ http://themereview.co/prefix-all-the-things/
 
 ### Accessibility
 
-- Hide [screen reader text] (https://make.wordpress.org/accessibility/tag/screen-reader/) with this code:
+- Hide [screen reader text](https://make.wordpress.org/accessibility/2015/02/09/hiding-text-for-screen-readers-with-wordpress-core/) with this code:
 
   ```css
-.screen-reader-text {
+  .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
     height: 1px;
     width: 1px;
     overflow: hidden;
-}
+  }
   ```
 - All inputs and textareas must have lables.
 - Icon fonts (social icons for example) should have fallback text for screen readers.
