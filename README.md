@@ -94,7 +94,7 @@ http://themereview.co/prefix-all-the-things/
 
 - Hide [screen reader text] (https://make.wordpress.org/accessibility/tag/screen-reader/) with this code:
 
-```
+  ```css
 .screen-reader-text {
     clip: rect(1px, 1px, 1px, 1px);
     position: absolute !important;
@@ -102,7 +102,7 @@ http://themereview.co/prefix-all-the-things/
     width: 1px;
     overflow: hidden;
 }
-```
+  ```
 - All inputs and textareas must have lables.
 - Icon fonts (social icons for example) should have fallback text for screen readers.
 - Use [ARIA landmark] (https://make.wordpress.org/themes/handbook/review/accessibility/required/#aria-landmark-roles) roles.
@@ -118,6 +118,8 @@ http://themereview.co/prefix-all-the-things/
 - Add `aria-expanded="false"` on all `li` elements with sub-menu on default. Change to `aria-expanded="true"` if sub-menu is open.
 
 ### Directory tree structure
+
+*TODO*
 
 #### Of a theme
 
