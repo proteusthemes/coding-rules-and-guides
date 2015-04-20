@@ -83,7 +83,7 @@ Additionally, follow these rules when naming handles:
 - All the custom scripts/styles should have the same version as the plugin, defined dynamically (so there is no need to update the handles once the plugin/theme is updated to the newer version). Use like this:
 
   ```php
-wp_enqueue_style( '<prefix>-admin', <PREFIX>_URL . 'assets/stylesheets/admin.css', array( 'font-awesome' ), <PREFIX>_VERSION );
+wp_enqueue_style( '<prefix>-admin', <PREFIX>_URL . 'assets/stylesheets/admin.css', array( 'dep1', 'dep2' ), <PREFIX>_VERSION );
 ```
 
 ### Prefixing and scopes
