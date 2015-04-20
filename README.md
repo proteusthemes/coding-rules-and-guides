@@ -72,6 +72,20 @@ Follow rules from the [WP Standard Handles](https://github.com/grappler/wp-stand
 - How to properly register/enqueue Google Fonts.
 - How to name image size handles added via [`add_image_size`](https://codex.wordpress.org/Function_Reference/add_image_size).
 
+Additionally, follow these rules when naming handles:
+
+- The handles should be prefixed (if they are not in the list of the standard handles).
+- Name the handles for the main scripts/styles like this:
+  - `<prefix>-admin-script` for the main JS file used in wp-admin
+  - `<prefix>-admin-style` for the main CSS file used in wp-admin
+  - `<prefix>-style` for the main CSS file used on frontend
+  - `<prefix>-script` for the main JS file used on frontend
+- All the custom scripts/styles should have the same version as the plugin, defined dynamically (so there is no need to update the handles once the plugin/theme is updated to the newer version). Use like this:
+
+  ```php
+wp_enqueue_style( '<prefix>-admin', <PREFIX>_URL . 'assets/stylesheets/admin.css', array( 'font-awesome' ), <PREFIX>_VERSION );
+```
+
 ### Prefixing and scopes
 
 http://themereview.co/prefix-all-the-things/
