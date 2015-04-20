@@ -110,7 +110,7 @@ http://themereview.co/prefix-all-the-things/
 
 #### Navigation Accessibility
 
-- Add `role="navigation"` and `aria-label="<?php _e( 'Name of the Menu', 'cargopress_wp' ); ?>"` on `<nav>`.
+- Add `role="navigation"` and `aria-label="<?php _e( 'Name of the Menu', 'textdomain' ); ?>"` on `<nav>`.
 - Add `role="menubar"` only on the first `ul` if `ul` is horizontal.
 - Add `role="menuitem"` on all `li` element or `role="presentation"` (if there is still bug in validator).
 - Add `role="menu"` on al `ul`s width sub-menu.
@@ -127,8 +127,8 @@ http://themereview.co/prefix-all-the-things/
 
 ### WP Customizer
 
-- [Improvements made in WP 4.0](https://make.wordpress.org/core/2014/07/08/customizer-improvements-in-4-0/): panels, new controls (supporting all HTML5 input types), contextual controls.
-- [Improvements made in WP 4.1](https://make.wordpress.org/core/2014/11/17/jsunderscore-template-rendered-custom-customizer-controls-in-wordpress-4-1/): registering control types, sending PHP control data to JS, JS/Underscore templating.
+- [Improvements in WP 4.0](https://make.wordpress.org/core/2014/07/08/customizer-improvements-in-4-0/): panels, new controls (supporting all HTML5 input types), contextual controls.
+- [Improvements in WP 4.1](https://make.wordpress.org/core/2014/11/17/jsunderscore-template-rendered-custom-customizer-controls-in-wordpress-4-1/): registering control types, sending PHP control data to JS, JS/Underscore templating.
 
 ## Git
 
