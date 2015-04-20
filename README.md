@@ -78,8 +78,8 @@ Additionally, follow these rules when naming handles:
 - Name the handles for the main scripts/styles like this:
   - `<prefix>-admin-script` for the main JS file used in wp-admin
   - `<prefix>-admin-style` for the main CSS file used in wp-admin
+  - `<prefix>-script` for the main JS file used on frontend  
   - `<prefix>-style` for the main CSS file used on frontend
-  - `<prefix>-script` for the main JS file used on frontend
 - All the custom scripts/styles should have the same version as the plugin, defined dynamically (so there is no need to update the handles once the plugin/theme is updated to the newer version). Use like this:
 
   ```php
