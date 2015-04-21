@@ -136,6 +136,16 @@ http://themereview.co/prefix-all-the-things/
 - [This](https://www.reviewboard.org/docs/codebase/dev/git/clean-commits/) is a guide how the commits history should look like.
 - Version names follow [Semantic Versioning](http://semver.org/).
 
+### Git hooks
+
+We use [git hooks](http://git-scm.com/docs/githooks) in order to check the code quality and run some automatic tests. When you make a commit in our projects, the committed PHP files are checked against WordPress standards. By doing this, we ensure that the code quality is of the highest standard.
+#### Installation
+
+In order for the git hooks to run smoothly you will need to install and configure some dependencies:
+
+- Install [WordPress Coding Standards for PHP_CodeSniffer](https://github.com/WordPress-Coding-Standards/WordPress-Coding-Standards). Follow the instructions on the page and make sure to include the library to the PATH variable of your OS (so the phpcs command will be available globally).
+- In your project folder run the command `grunt githooks`. This will configure/apply the git hooks.
+
 ## Other tools
 
 ### Bower
