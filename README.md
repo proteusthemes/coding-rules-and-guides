@@ -33,7 +33,8 @@ Adhere to the [Code Guide](http://codeguide.co/#css) and additionally:
 
 For now follow the [WP JavaScript Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/javascript/).
 
-For variable names use `var camelCase`, no underscores. jQuery variables which hold cached jQuery selectors prepend with a dollar sign: `var $elements = jQuery( '.selector'  );`.
+- Variable names use `var camelCase`, no underscores.
+- Prepend jQuery variables which hold cached jQuery selectors with a dollar sign: `var $elements = jQuery( '.selector'  );`.
 
 ### PHP
 
