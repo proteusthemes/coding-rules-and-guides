@@ -31,6 +31,8 @@ Adhere to the [Code Guide](http://codeguide.co/#css) and additionally:
 
 ### JavaScript
 
+For now follow the [WP JavaScript Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/javascript/).
+
 ### PHP
 
 As we write 99% PHP for WP, follow their [PHP Coding Standards](https://make.wordpress.org/core/handbook/coding-standards/php/). The only difference is the [brace style](https://make.wordpress.org/core/handbook/coding-standards/php/#brace-style) - mind additional new line after closing `}`:
