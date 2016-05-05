@@ -132,6 +132,7 @@ http://themereview.co/prefix-all-the-things/
 
 ### WP Customizer
 
+- [List of tutorials about customizer](https://make.wordpress.org/themes/2015/05/07/customizer-tutorials-and-documentation/) - some might be out of date though.
 - [Improvements in WP 4.0](https://make.wordpress.org/core/2014/07/08/customizer-improvements-in-4-0/): panels, new controls (supporting all HTML5 input types), contextual controls.
 - [Improvements in WP 4.1](https://make.wordpress.org/core/2014/11/17/jsunderscore-template-rendered-custom-customizer-controls-in-wordpress-4-1/): registering control types, sending PHP control data to JS, JS/Underscore templating.
 
