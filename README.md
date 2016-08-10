@@ -138,7 +138,7 @@ http://themereview.co/prefix-all-the-things/
 
 ## Git
 
-- Commit comments start capitalized and end with a period (as sentences), ie. `Initial commit.`, `Added feature XYZ. Closes issue #42.`.
+- Stick to this guide on [How to Write a Git Commit Message](http://chris.beams.io/posts/git-commit/).
 - [This](https://www.reviewboard.org/docs/codebase/dev/git/clean-commits/) is a guide how the commits history should look like.
 - Version names follow [Semantic Versioning](http://semver.org/).
 
